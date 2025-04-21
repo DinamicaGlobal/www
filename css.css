@@ -1,0 +1,238 @@
+body {
+    font-family: sans-serif;
+    font-size: 14px; /* Tamaño de letra base en píxeles */
+    background-color: #fff; /* Fondo blanco */
+    min-height: 10vh; /* Asegurar que el body ocupe al menos el 100% del viewport */
+    line-height: 22px;
+}
+a {
+    text-decoration: none; /* Eliminar la línea debajo de los enlaces */
+    color: rgb(2, 34, 214); /* Puedes personalizar el color de los enlaces */
+}
+footer {
+    font-size: 12px; /* Tamaño de la letra*/
+    display: flex;
+    justify-content: space-between; /* Espacio entre las columnas del footer */
+    padding-top: 10px;
+    border-top: 1px solid #ccc; /* Línea divisoria en la parte superior */
+}
+iframe {
+    float: right; /* Se alinea a la derecha*/
+    margin: 5px; /* Margen de 5 pixeles*/
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+  }
+.enlace{
+    float: right; /* Se alinea a la derecha*/
+}
+.citas{
+    font-size: 12px; /* Tamaño de 12 pixeles*/
+    border-top: 1px solid #ccc; /* Línea divisoria en la parte superior */
+}
+.col{
+    display: flex;
+    flex-wrap: wrap; /*Permite que las columnas se apilen*/
+}
+.colx{
+    box-sizing: border-box; /*Asegura que el padding no afecte el ancho*/
+    padding: 5px;
+}
+.columnas {
+    display: flex;
+    justify-content: space-around; /*Espacio igual entre columnas*/
+    flex-wrap: wrap; /*Permite que las columnas se apilen*/
+}
+.columna {
+    width: 33%; /*Ajusta el ancho de las columnas*/
+    box-sizing: border-box; /*Asegura que el padding no afecte el ancho*/
+    padding: 5px;
+}
+.column {
+    flex-basis: 48%; /* Aproximadamente el 48% del ancho para cada columna (dejando espacio para el margen) */
+    text-align: center; /* Alinea el texto al centro */
+}
+.container {
+    width: 100%; /* Ancho del 90% del viewport */
+    max-width: 1200px; /* Opcional: limitar el ancho máximo en pantallas grandes */
+    margin: 0px auto; /* Centrar el contenedor horizontalmente con un margen superior e inferior */
+    box-sizing: border-box; /* Asegurar que el padding y el border se incluyan dentro del ancho */
+}
+.contenedor-imagen {
+    width: 200px; /* Ancho base de la imagen */
+    float: right; /* Se alinea a la derecha*/
+    max-width: 100%; /* Evita que la imagen se desborde del contenedor padre */
+    height: auto; /* El alto se ajusta proporcionalmente */
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+}
+.contenedor-imagen-izq {
+    width: 200px; /* Ancho base de la imagen */
+    float: left; /* Se alinea a la derecha*/
+    max-width: 100%; /* Evita que la imagen se desborde del contenedor padre */
+    height: auto; /* El alto se ajusta proporcionalmente */
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    margin: 10px; /* Margen de 12 pixeles*/
+}
+.contenedor-imagen-der {
+    width: 200px; /* Ancho base de la imagen */
+    float: right; /* Se alinea a la derecha*/
+    max-width: 100%; /* Evita que la imagen se desborde del contenedor padre */
+    height: auto; /* El alto se ajusta proporcionalmente */
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+    margin: 10px; /* Margen de 12 pixeles*/
+}
+.contenedor-campeones {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos hijos */
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente línea si no caben */
+}
+.campeones1 {
+    border-radius: 10px;
+    padding: 10px;
+    border: solid 1px #c0c0c0;
+    margin: 15px; /* Aumenta el margen para separar mejor las divs */
+    vertical-align: top;
+    display: inline-block; /* Ya no es necesario con flexbox, pero se mantiene por si acaso */
+    width: 180px;
+    background: #eeeef1;
+    text-align: left; /* Centra el contenido dentro de cada div (opcional) */
+}
+.carrusel {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos hijos */
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente línea si no caben */
+}
+.carrusel1 {
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 10px;
+    padding: 5px;
+    border: solid 1px #c0c0c0;
+    margin: 10px; /* Aumenta el margen para separar mejor las divs */
+    vertical-align: top;
+    display: inline-block; /* Ya no es necesario con flexbox, pero se mantiene por si acaso */
+    width: 300px;
+    background: #eeeef1;
+    text-align: left; /* Centra el contenido dentro de cada div (opcional) */
+}
+.carrusel img{
+    max-width: 100%; /* Evita que la imagen se desborde del contenedor padre */
+    width: auto; /* El alto se ajusta proporcionalmente */
+}
+.cuadro {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos hijos */
+    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente línea si no caben */
+}
+.cuadro1 {
+    background: #eeeef1;
+    border: solid 1px #c0c0c0;
+    border-radius: 10px;
+    font-size: 12px; /* Tamaño de letra base en píxeles */
+    margin: 5px; /* Aumenta el margen para separar mejor las divs */
+    padding: 10px;
+    text-align: left; /* Alinea el texto a la izquierda dentro del div */
+    vertical-align: top;
+    width: 200px;
+}
+.enlace-derecha {
+    text-align: right; /* Alinea el texto (el enlace) a la derecha dentro del párrafo */
+}
+.fuente-imagen {
+    width: 100%;
+    max-width: 100%; /* Evita que la imagen se desborde del contenedor padre */
+    height: auto; /* El alto se ajusta proporcionalmente */
+    border: 1px solid #c0c0c0;
+    padding: 5px;
+}
+.indice {
+	padding-top: 0px; /* Ajusta este valor en píxeles según necesites */
+	border: 1px solid black; /* Grosor, estilo, color */
+	border-color: #c0c0c0; /* Color del borde en el índice*/ 
+	display: inline-block; /* Esto hace que el div se ajuste al contenido */
+	background-color: #f8f8f8; /* El color de fondo que desees */
+	padding: 10px; /* Opcional: añade un poco de espacio alrededor del texto */
+	padding-top: 10px; /* Da un espacio en la parte superior */
+	padding-bottom: 2px; /* Da un espacio en la parte inferior */
+	border-radius: 5px; /* Da un radio a la esquina de la div*/
+}
+.gen {
+    align-items: flex-start; /* Alinea los elementos en la parte superior */
+    display: flex;
+    flex-direction: row; /* Para mostrar las columnas en fila en pantallas grandes */
+    gap: 1px; /* Espacio entre las columnas */
+    padding: 10px; /* Espacio alrededor del contenedor */
+}
+.gen1 {
+    margin-right: 10px; /* Espacio entre columnas (ajusta según sea necesario) */
+    white-space: nowrap; /* Evita que el texto se envuelva innecesariamente */
+    flex: 1; /* Distribuye el espacio equitativamente entre las columnas */
+    padding: 1px;
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho */
+    text-align: center; /* Opcional: alinear el texto dentro de cada columna */
+}
+.gen p{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 12px; /* Tamaño de letra base en píxeles */
+    background-color: #eeeef1;
+}
+.tabla{
+	padding-top: 0px; /* Ajusta este valor en píxeles según necesites */
+	border: 1px solid black; /* Grosor, estilo, color */
+	border-color: #c0c0c0; /* Color del borde en el índice*/ 
+	display: inline-block; /* Esto hace que el div se ajuste al contenido */
+	background-color: #f8f8f8; /* El color de fondo que desees */
+	padding: 10px; /* Opcional: añade un poco de espacio alrededor del texto */
+	padding-top: 10px; /* Da un espacio en la parte superior */
+	padding-bottom: 2px; /* Da un espacio en la parte inferior */
+	border-radius: 5px; /* Da un radio a la esquina de la div*/
+}
+.tablax{
+    box-sizing: border-box; /*Asegura que el padding no afecte el ancho*/
+    padding: 5px;
+}
+.tabla p{
+    border: 1px solid #c0c0c0;
+    background-color: #eeeef1;
+    border-radius: 5px;
+    font-size: 12px; /* Tamaño de letra base en píxeles */
+    padding: 10px;
+}
+/* Estilos para pantallas más pequeñas (ejemplo para móviles) */
+@media (max-width: 650px) {
+    iframe {
+        width: 95%;
+        padding: 15px;
+        margin: 5px; /* Margen de 5 pixeles*/
+        border: 1px solid #c0c0c0;
+      }
+    footer {
+        flex-direction: column; /* Apilar las columnas en pantallas pequeñas */
+    }
+    .container {
+        width: 95%; /* Ocupar más ancho en pantallas pequeñas */
+        margin: 10px auto;
+        padding: 15px;
+    }
+	.column {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+    .columna {
+        width: 100%; /*Ocupa todo el ancho en pantallas pequeñas*/
+    }
+    .contenedor-imagen {
+        width: 100%; /* La imagen ocupa todo el ancho disponible */
+    }
+    .gen {
+        flex-direction: column; /* Apila las columnas verticalmente */
+        align-items: flex-end; /* Alinea las columnas individuales a la derecha */
+    }
+    .gen1 {
+        width: 100%; /* Ocupa todo el ancho disponible en pantallas pequeñas */
+        margin-bottom: 10px; /* Espacio entre las columnas apiladas */
+    }
+}
