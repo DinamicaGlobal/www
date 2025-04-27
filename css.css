@@ -43,9 +43,8 @@ iframe {
     flex-wrap: wrap; /*Permite que las columnas se apilen*/
 }
 .columna {
-    width: 33%; /*Ajusta el ancho de las columnas*/
+    width: 25%; /*Ajusta el ancho de las columnas*/
     box-sizing: border-box; /*Asegura que el padding no afecte el ancho*/
-    padding: 5px;
 }
 .column {
     flex-basis: 48%; /* Aproximadamente el 48% del ancho para cada columna (dejando espacio para el margen) */
@@ -56,6 +55,7 @@ iframe {
     max-width: 1200px; /* Opcional: limitar el ancho máximo en pantallas grandes */
     margin: 0px auto; /* Centrar el contenedor horizontalmente con un margen superior e inferior */
     box-sizing: border-box; /* Asegurar que el padding y el border se incluyan dentro del ancho */
+    padding: 15px;
 }
 .contenedor-imagen {
     width: 200px; /* Ancho base de la imagen */
@@ -163,10 +163,10 @@ iframe {
     display: flex;
     flex-direction: row; /* Para mostrar las columnas en fila en pantallas grandes */
     gap: 1px; /* Espacio entre las columnas */
-    padding: 10px; /* Espacio alrededor del contenedor */
+    padding: 5px; /* Espacio alrededor del contenedor */
 }
 .gen1 {
-    margin-right: 10px; /* Espacio entre columnas (ajusta según sea necesario) */
+    margin-right: 20px; /* Espacio entre columnas (ajusta según sea necesario) */
     white-space: nowrap; /* Evita que el texto se envuelva innecesariamente */
     flex: 1; /* Distribuye el espacio equitativamente entre las columnas */
     padding: 1px;
@@ -174,10 +174,11 @@ iframe {
     text-align: center; /* Opcional: alinear el texto dentro de cada columna */
 }
 .gen p{
-    border: 1px solid #000000;
-    border-radius: 5px;
+    border: 1px solid #c0c0c0;
+    border-radius: 10px;
     font-size: 12px; /* Tamaño de letra base en píxeles */
     background-color: #eeeef1;
+
 }
 .tabla{
 	padding-top: 0px; /* Ajusta este valor en píxeles según necesites */
